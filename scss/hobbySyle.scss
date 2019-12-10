@@ -1,0 +1,14 @@
+@import "parallax";
+@import "variables";
+
+.container{
+  display: flex;
+  margin: 10vh 5vw;
+}
+
+.articleText{
+padding: 0 3vw;
+}
+h1{
+  text-align: center;
+}
