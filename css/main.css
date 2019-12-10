@@ -1,0 +1,16 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #DE9E36;
+}
+
+
+body {
+    background-color: #6D6A75;
+    padding: 1em;
+    margin: 1em;
+    
+}
