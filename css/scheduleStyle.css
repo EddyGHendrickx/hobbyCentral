@@ -1,15 +1,19 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
 @media screen and (min-width: 700px) {
   .schedule {
     display: grid;
     grid-gap: 1em;
-    grid-template-rows: [tracks] auto [time-0800] 1fr [time-0830] 1fr [time-0900] 1fr [time-0930] 1fr [time-1000] 1fr [time-1030] 1fr [time-1100] 1fr [time-1130] 1fr [time-1200] 1fr;
+    grid-template-rows: [tracks] auto [time-0800] 0.5fr [time-0830] 0.5fr [time-0900] 0.5fr [time-0930] 0.5fr [time-1000] 0.5fr [time-1030] 0.5fr [time-1100] 0.5fr [time-1130] 0.5fr [time-1200] 0.5fr [time-1230] 0.5fr [time-1300] 0.5fr [time-1330] 0.5fr [time-1400] 0.5fr [time-1450] 0.5fr [time-1500] 0.5fr [time-1530] 0.5fr [time-1600] 0.5fr [time-1630] 0.5fr [time-1700] 0.5fr [time-1730] 0.5fr;
     /* Note 1:
     Use 24hr time for gridline names for simplicity
 
     Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
     Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
     */
-    grid-template-columns: [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end];
+    grid-template-columns: [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end track-5-start] 1fr [track-5-end];
   }
 }
 .time-slot {
@@ -59,7 +63,7 @@ body {
 
 .session {
   padding: 0.5em;
-  border-radius: 2px;
+  border-radius: 25px;
   font-size: 14px;
   text-align: center;
 }
@@ -142,14 +146,10 @@ hr {
   margin: 40px 0;
 }
 
-h2 {
-  text-align: center;
-}
-
 .Headerbackground {
   background-color: #37323E;
   padding: 0.5em;
-  border-radius: 2px;
+  border-radius: 25px;
   font-size: 14px;
 }
 
@@ -157,4 +157,4 @@ h2 {
   background-color: #6D6A75;
 }
 
-/*# sourceMappingURL=myStyle.css.map */
+/*# sourceMappingURL=scheduleStyle.css.map */
