@@ -97,8 +97,12 @@ body {
   border-radius: 25px;
   font-size: 14px;
   text-align: center;
-
 }
+
+.session:hover {
+  background-color: blue;
+}
+
 
 .session-title,
 .session-time,

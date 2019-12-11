@@ -16,7 +16,6 @@ h2 {
     font-family: 'Teko', sans-serif !important;
     letter-spacing: 0.2em !important;
 
-
 }
 
 h4 {
@@ -25,8 +24,12 @@ h4 {
 
 
 body {
-    background-color: #6D6A75;
-    padding: 1em;
+    background: #37323e;
+    background:-webkit-linear-gradient(bottom, #37323e, #6d6a75);
+    background: -moz-linear-gradient(bottom, #37323e, #6d6a75);
+    background: -ms-linear-gradient(bottom, #37323e, #6d6a75);
+    background: -o-linear-gradient(bottom, #37323e, #6d6a75);
+    background: linear-gradient(to top, #37323e, #6d6a75);
     margin: 1em;
 }
 
