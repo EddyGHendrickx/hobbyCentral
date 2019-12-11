@@ -1,23 +1,42 @@
 .parallax {
-  background-image: url("https://picsum.photos/1200/600");
+  background-image: url("https://picsum.photos/1200/800");
   height: 500px;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.container {
-  display: flex;
-  margin: 10vh 5vw;
+body {
+  margin: 0;
 }
 
-.articleText {
-  padding: 0 3vw;
+.flex {
+  display: flex;
+  margin: 10vh 0;
+}
+
+.mainContent {
+  width: 100%;
 }
 
 h1 {
-  text-align: center;
+  margin-bottom: 0;
+  max-height: 10%;
+  height: 10%;
+}
+
+.mainText {
+  padding: 2vh 3vw;
+  background-color: #f2f2f2;
+  margin: 0;
+  height: 90%;
+  overflow: hidden;
+}
+
+img {
+  height: auto;
 }
 
 /*# sourceMappingURL=hobbySyle.css.map */

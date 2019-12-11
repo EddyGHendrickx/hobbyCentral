@@ -1,14 +1,33 @@
 @import "parallax";
 @import "variables";
 
-.container{
-  display: flex;
-  margin: 10vh 5vw;
+body{
+  margin: 0;
 }
 
-.articleText{
-padding: 0 3vw;
+.flex{
+  display: flex;
+  margin: 10vh 0;
 }
-h1{
-  text-align: center;
+
+.mainContent{
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 0;
+  max-height: 10%;
+  height: 10%;
+}
+
+.mainText {
+  padding: 2vh 3vw;
+  background-color: #f2f2f2;
+  margin: 0;
+  height: 90%;
+  overflow: hidden;
+}
+
+img {
+  height: auto;
 }
