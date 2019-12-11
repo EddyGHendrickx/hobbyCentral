@@ -86,7 +86,7 @@
  * Design-y stuff ot particularly important to the demo
  *************************/
 body {
-  padding: 50px;
+
   max-width: auto;
   margin: 0 auto;
   line-height: 1.5;
@@ -94,7 +94,7 @@ body {
 
 .session {
   padding: .5em;
-  border-radius: 25px;
+  border-radius: 10px;
   font-size: 14px;
   text-align: center;
 }
@@ -195,4 +195,9 @@ hr {
 
 .Roombackground {
   background-color: #6D6A75;
+}
+
+.schedule, h2 {
+  margin-left: 25px;
+  margin-right: 25px;
 }
