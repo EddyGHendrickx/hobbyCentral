@@ -1,0 +1,42 @@
+.parallax {
+  background-image: url("https://picsum.photos/1200/800");
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  margin: 10vh 0;
+}
+
+.mainContent {
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 0;
+  max-height: 10%;
+  height: 10%;
+}
+
+.mainText {
+  padding: 2vh 3vw;
+  background-color: #f2f2f2;
+  margin: 0;
+  height: 90%;
+  overflow: hidden;
+}
+
+img {
+  height: auto;
+}
+
+/*# sourceMappingURL=hobbySyle.css.map */
