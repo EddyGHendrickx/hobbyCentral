@@ -1,12 +1,3 @@
-@media only screen and (max-width: 991px) {
-  .navheight {
-    max-height: 230px;
-  }
-}
-.navbackcolor {
-  background-color: #3560CE;
-}
-
 footer ul {
   list-style: none;
 }
@@ -55,8 +46,11 @@ footer ul li a:hover:after {
   width: 100%;
 }
 
-.row {
+.centertext {
   text-align: center;
+}
+
+.row {
   background: #252525;
 }
 
@@ -66,7 +60,16 @@ footer ul li a:hover:after {
 }
 
 .headtitle {
-  margin: 10px;
+  margin: 20px;
+}
+
+.socialbullet {
+  list-style-image: url("../images/fbicon.jpg");
+}
+
+.resizeicons {
+  width: 50px;
+  height: 50px;
 }
 
 /*# sourceMappingURL=footerStyle.css.map */
