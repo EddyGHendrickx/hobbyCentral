@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!--Own css-->
-    <link rel="stylesheet" href="../css/headerStyle.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+    <link rel="stylesheet" href="../css/headerStyle.css" type="text/css">
+    <link rel="stylesheet" href="../css/footerStyle.css" type="text/css">
+
     <link rel="stylesheet" type="text/css" href="../css/hobbySyle.css">
 
 </head>
@@ -29,16 +32,16 @@
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto ">
             <li class="nav-item active ">
-                <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-dark" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark " href="#">Our Hobbies</a>
+                <a class="nav-link text-dark " href="allhobbies&rooms.html">Our Hobbies</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Schedule</a>
+                <a class="nav-link text-dark" href="Schedule.html">Schedule</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Contact</a>
+                <a class="nav-link text-dark" href="contact.html">Contact</a>
             </li>
         </ul>
     </div>
@@ -49,14 +52,66 @@
 
 <!--Main Content-->
 <article class="flex">
-    <section class="mainContent">
+    <section class="mainContent col-md-6">
         <h1>Hobby title here</h1>
-        <p class="mainText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci culpa cumque eum ipsam labore laboriosam, magni minus perspiciatis quae, quas quisquam, sequi suscipit tenetur vel voluptates! Aliquam eius fugit nesciunt nihil rem rerum soluta ut? Accusamus accusantium aliquid consequuntur deserunt dicta, dignissimos dolorem doloribus eos id incidunt ipsum officia officiis optio pariatur provident quam quo repudiandae sint suscipit, totam veniam, vitae voluptatem. Ab magni natus quas reiciendis sequi unde? Adipisci, amet dignissimos exercitationem facilis fuga id maiores quam quia sed vero! Accusamus, aperiam asperiores atque beatae consequatur deserunt distinctio dolores enim excepturi, expedita fugit ipsam nostrum officia officiis perferendis placeat quia quos reiciendis rerum sit. Aspernatur consequatur distinctio dolorum fuga minus numquam ratione tenetur. Culpa illo officia quia sapiente voluptatibus? </p>
+        <p class="mainText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci culpa cumque eum ipsam labore laboriosam, magni minus perspiciatis quae, quas quisquam, sequi suscipit tenetur vel voluptates! Aliquam eius fugit nesciunt nihil rem rerum soluta ut? Accusamus accusantium aliquid consequuntur deserunt dicta, dignissimos dolorem doloribus eos id incidunt ipsum officia officiis optio pariatur provident quam quo repudiandae sint suscipit, totam veniam, vitae voluptatem. </p>
     </section>
-    <section class="image">
-        <img src="https://picsum.photos/500" alt=...">
+    <section class="image col-md-6">
+        <img src="../images/12.jpg" alt=...">
     </section>
 </article>
+
+<!--footer-->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-6 col-sm-8 bg-warning">
+
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 text-white">
+                <h5 class="headtitle">HobbyCentral</h5>
+                <p>To Exercise all your favorite hobbies!</p>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 text-white">
+                <h5 class="headtitle">Quick Link</h5>
+                <ul class="list-group nodecor">
+                    <li>
+                        <a href="www.google.com" type="_blank" title="Homepage">Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.google.com" type="_blank" title="Our Hobbies">Our Hobbies
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.google.com" type="_blank" title="Schedule">Schedule
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.google.com" type="_blank" title="Contact">Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 text-white">
+                <h5 class="headtitle">Contact</h5>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 text-white">
+                <h5 class="headtitle">Social</h5>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 bg-warning">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 bg-warning">
+                <h6>Copyright</h6>
+            </div>
+
+        </div>
+    </div>
+</footer>
 
 <!--Scripts-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -70,3 +125,17 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
+<!--
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            One of three columns
+        </div>
+        <div class="col-sm">
+            One of three columns
+        </div>
+        <div class="col-sm">
+            One of three columns
+        </div>
+    </div>
+</div>
