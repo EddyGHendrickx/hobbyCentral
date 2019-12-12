@@ -32,10 +32,18 @@ input[type=submit]:hover {
 #flexbox {
     display: flex;
     justify-content: space-around;
+    flex-direction: column-reverse;
 }
 
 iframe {
     margin: 1em;
     padding: 1em;
     border:0;
+    background-color: #6D6A75;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Maps {
+        width: 778px;
+    }
 }
