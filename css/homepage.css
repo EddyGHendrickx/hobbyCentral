@@ -7,3 +7,8 @@
 .CarouselContent {
     text-align: center;
 }
+
+.SecondSession {
+    display: flex;
+    justify-content: space-around;
+}
