@@ -5,29 +5,48 @@ body{
   margin: 0;
 }
 
+.parallax{
+  @include parallax;
+}
+
 .flex{
   display: flex;
   margin: 10vh 0;
 }
 
 .mainContent{
-  width: 100%;
+  padding: 0;
+  @include mQ(768) {
+    width: 100%;
+  }
 }
 
 h1 {
+  font-size: 3vw;
   margin-bottom: 0;
-  max-height: 10%;
-  height: 10%;
+  height: 15%;
+  padding-top: 1%;
+}
+
+p {
+  font-size: 1.5vw;
 }
 
 .mainText {
   padding: 2vh 3vw;
   background-color: #f2f2f2;
   margin: 0;
-  height: 90%;
+  height: 85%;
   overflow: hidden;
 }
 
+.image {
+  padding: 0;
+  @include mQ(768) {
+    width: 100%;
+  }
+}
+
 img {
-  height: auto;
+  width: 100%;
 }
