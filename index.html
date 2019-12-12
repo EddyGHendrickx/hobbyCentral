@@ -12,41 +12,101 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/footerStyle.css" type="text/css">
+    <link rel="stylesheet" href="css/headerStyle.css" type="text/css">
+
 
     <title>Carousel</title>
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+<!-- navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light navheight">
+    <a class="navbar-brand text-black " href="#">HobbyCentral</a>
+    <!-- Collapse menu-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active ">
+                <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark " href="#">Our Hobbies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- carousel -->
 
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/20.jpeg" class="d-block w-100" alt="...">
+            <img src="https://steamcdn-a.akamaihd.net/steam/apps/1029730/ss_f76e7e950bc1bf4b8c6edf1d937dc88cfb1065f2.600x338.jpg?t=1574442779" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Swimming</p>
+                <h5>Ping pong</h5>
+                <p class="CarouselContent">Is this aligned?</p>
+                <button class="btn btn-primary">Sign up today</button>
+
             </div>
         </div>
         <div class="carousel-item">
-            <img src="images/40.jpeg" class="d-block w-100" alt="...">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Arctic_Monkeys_-_Orange_Stage_-_Roskilde_Festival_2014.jpg/1024px-Arctic_Monkeys_-_Orange_Stage_-_Roskilde_Festival_2014.jpg    " class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Music</p>
+                <h5>Every kind of music equipment</h5>
+                <p class="CarouselContent">Is this aligned?</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="images/30.jpg" class="d-block w-100" alt="...">
+            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/35/2019/08/05144705/GettyImages-96709750-1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Ping pong</p>
+                <h5>Swimming</h5>
+                <p class="CarouselContent">Is this aligned?</p>
             </div>
         </div>
+        <div class="carousel-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Arctic_Monkeys_-_Orange_Stage_-_Roskilde_Festival_2014.jpg/1024px-Arctic_Monkeys_-_Orange_Stage_-_Roskilde_Festival_2014.jpg    " class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Tango</h5>
+                <p class="CarouselContent">Is this aligned?</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Arctic_Monkeys_-_Orange_Stage_-_Roskilde_Festival_2014.jpg/1024px-Arctic_Monkeys_-_Orange_Stage_-_Roskilde_Festival_2014.jpg    " class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Sewing</h5>
+                <p class="CarouselContent">Is this aligned?</p>
+            </div>
+        </div>
+
     </div>
+
 
 
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -61,7 +121,7 @@
 
 <section class="ftco-section ftco-no-pt ftco-no-pb">
     <div class="container">
-        <div class="row no-gutters">
+        <div class="row no-gutters wwcdfy">
 
             <div class="col-md-7 wrap-about pt-md-5 ftco-animate">
                 <div class="heading-section mb-5 pt-5 pl-md-5">
@@ -112,6 +172,59 @@
         </div>
     </div>
 </section>
+
+<!-- footer -->
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-6 col-sm-8 bg-warning">
+
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 text-white">
+                <h5 class="headtitle">HobbyCentral</h5>
+                <p>To Exercise all your favorite hobbies!</p>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 text-white">
+                <h5 class="headtitle">Quick Link</h5>
+                <ul class="list-group nodecor">
+                    <li>
+                        <a href="www.google.com" type="_blank" title="Homepage">Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.google.com" type="_blank" title="Our Hobbies">Our Hobbies
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.google.com" type="_blank" title="Schedule">Schedule
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.google.com" type="_blank" title="Contact">Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 text-white">
+                <h5 class="headtitle">Contact</h5>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 text-white">
+                <h5 class="headtitle">Social</h5>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-8 bg-warning">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 bg-warning">
+                <h6>Copyright</h6>
+            </div>
+
+        </div>
+    </div>
+</footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
