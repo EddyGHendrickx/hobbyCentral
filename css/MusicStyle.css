@@ -1,5 +1,5 @@
 .parallax {
-    background-image: url("http://weownthenitenyc.com/wp-content/uploads/2019/06/We-Own-The-Nite-NYC_Ever-After-Music-Festival_2019-EAMF-Day-1-1-@ndkimages-1.jpeg");
+    background-image: url("http://weownthenitenyc.com/wp-content/uploads/2019/06/We-Own-The-Nite-NYC_Ever-After-Music-Festival_2019-EAMF-Day-1-1-@ndkimages-5.jpg");
     height: 500px;
     width: 100%;
     background-attachment: fixed;
@@ -22,14 +22,17 @@ body {
 }
 
 h1 {
+    margin-top: 10px;
     margin-bottom: 0;
     max-height: 10%;
     height: 10%;
+    vertical-align: center;
 }
 
 .mainText {
     padding: 2vh 3vw;
-    background-color: #f2f2f2;
+    background-color: rgba(58, 58, 58, 0.86);
+    color: white;
     margin: 0;
     height: 90%;
     overflow: hidden;
