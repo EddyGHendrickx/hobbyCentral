@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #3A3A3A;
+}
+
+.parallax {
+    background-image: url("../images/tabletennis.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 576px) {
+    .parallax {
+        display: none;
+    }
+}
+
+.flex {
+    display: flex;
+    margin: 10vh 0;
+}
+
+.mainContent {
+    padding: 0;
+}
+@media screen and (max-width: 768) {
+    .mainContent {
+        width: 100%;
+    }
+}
+
+h1 {
+    font-size: 3vw;
+    margin-bottom: 0;
+    height: 15%;
+    padding-top: 1%;
+}
+
+p {
+    font-size: 1vw;
+}
+
+.mainText {
+    padding: 2vh 3vw;
+    background-color: #3A3A3A;
+    margin: 0;
+    height: 85%;
+    overflow: hidden;
+    color:ghostwhite;
+}
+
+
+@media screen and (max-width: 768px) {
+    .image {
+        width: 100%;
+    }
+}
+
+.imageresize {
+    height: 700px;
+    width:800px;
+}
+
+.borderrad {
+    border-radius: 10px;
+}

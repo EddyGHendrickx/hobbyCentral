@@ -8,13 +8,61 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/headerStyle.css" type="text/css">
     <link rel="stylesheet" href="../css/footerStyle.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/pingpong.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+
     <title></title>
 </head>
 <body>
+<!--Header-->
+<nav class="navbar navbar-expand-lg navbar-light navheight
+    navbackcolor">
+    <a class="navbar-brand text-black brand" href="#">HobbyCentral</a>
+    <!-- Collapse menu-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-<!--</footer>-->
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active ">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="allhobbies&rooms.html">Our Hobbies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
+
+<!--Parallax-->
+<article class="parallax"></article>
+
+<!--Main Content-->
+<article class="flex">
+    <section class="mainContent col-md-6 borderrad">
+        <h1>Ping Pong</h1>
+        <p class="mainText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci culpa cumque eum ipsam labore laboriosam, magni minus perspiciatis quae, quas quisquam, sequi suscipit tenetur vel voluptates! Aliquam eius fugit nesciunt nihil rem rerum soluta ut? Accusamus accusantium aliquid consequuntur deserunt dicta, dignissimos dolorem doloribus eos id incidunt ipsum officia officiis optio pariatur provident quam quo repudiandae sint suscipit, totam veniam, vitae voluptatem. </p>
+    </section>
+    <section class="image col-md-6">
+        <img class="borderrad ml-5 imageresize" src="../images/table-tennis-1208377_960_720.jpg" alt=...">
+    </section>
+</article>
+
+<!--footer-->
 <!-- Footer -->
 <footer>
     <div class="container-fluid">
@@ -81,6 +129,7 @@
         </div>
     </div>
 </footer>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
