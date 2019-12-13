@@ -14,6 +14,8 @@ This repo contains a fictional company that sells any type of hobby equipment.
 A preview:
 https://eddyghendrickx.github.io/hobbyCentral.io/
 
+We also have a Favicon!
+
 ### Below a copy of the original assignment
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
