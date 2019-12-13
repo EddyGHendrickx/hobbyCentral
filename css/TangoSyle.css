@@ -1,11 +1,12 @@
 .parallax {
-  background-image: url("https://picsum.photos/1200/800");
+  background-image: url("https://moeders.nu/wp-content/uploads/2017/03/Passie-moeder-1-1000x600.jpg");
   height: 500px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 body {
