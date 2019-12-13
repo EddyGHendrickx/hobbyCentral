@@ -1,3 +1,5 @@
+## Behold, our glorious website
+
 This assignment was made by Ajmal, Chih, Joeri, Irina and Matthijs
 during the BeCode education programme. 
 
@@ -5,13 +7,16 @@ This repo had to be nice to read, and have a nice image, so I guess a coding mem
 will get two birds in one stone.
 
 <img src="https://pbs.twimg.com/media/Dlb-mxlU0AE9_sA.jpg" alt="coding meme"
-	title="A cute kitten" width="150" height="100" />
+	title="A cute kitten" width="250" height="200" />
 
 This repo contains a fictional company that sells any type of hobby equipment.
 
+A preview:
 https://eddyghendrickx.github.io/hobbyCentral.io/
 
 ### Below a copy of the original assignment
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 # Title: Final HTML/CSS test
 - Repository: `name-of-your-business`
