@@ -1,3 +1,16 @@
+This assignment was made by Ajmal, Chih, Joeri, Irina and Matthijs
+during the BeCode education programme. 
+
+This repo had to be nice to read, and have a nice image, so I guess a coding meme
+will get two birds in one stone.
+![Yup](https://pbs.twimg.com/media/Dlb-mxlU0AE9_sA.jpg)
+
+This repo contains a fictional company that sells any type of hobby equipment.
+
+https://eddyghendrickx.github.io/hobbyCentral.io/
+
+### Below a copy of the original assignment
+
 # Title: Final HTML/CSS test
 - Repository: `name-of-your-business`
 - Type of Challenge: `Consolidation Challenge`
