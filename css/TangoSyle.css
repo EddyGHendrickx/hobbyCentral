@@ -40,4 +40,8 @@ img {
   height: auto;
 }
 
+.center{
+  display: flex;
+  justify-content: center;
+}
 /*# sourceMappingURL=hobbySyle.css.map */
