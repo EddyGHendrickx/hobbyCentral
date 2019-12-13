@@ -3,7 +3,9 @@ during the BeCode education programme.
 
 This repo had to be nice to read, and have a nice image, so I guess a coding meme
 will get two birds in one stone.
-![Yup](https://pbs.twimg.com/media/Dlb-mxlU0AE9_sA.jpg)
+
+<img src="https://pbs.twimg.com/media/Dlb-mxlU0AE9_sA.jpg" alt="coding meme"
+	title="A cute kitten" width="150" height="100" />
 
 This repo contains a fictional company that sells any type of hobby equipment.
 
