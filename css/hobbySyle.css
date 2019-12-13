@@ -17,49 +17,59 @@ body {
 }
 
 .flex {
-  display: flex;
   margin: 10vh 0;
+  display: flex;
 }
-
-.mainContent {
+@media screen and (max-width: 768px) {
+  .flex {
+    display: block;
+  }
+}
+.flex .mainContent {
   padding: 0;
 }
-@media screen and (max-width: 768) {
-  .mainContent {
+@media screen and (max-width: 768px) {
+  .flex .mainContent {
     width: 100%;
   }
 }
-
-h1 {
-  font-size: 3vw;
-  margin-bottom: 0;
-  height: 15%;
-  padding-top: 1%;
-}
-
-p {
-  font-size: 1.5vw;
-}
-
-.mainText {
+.flex .mainContent .mainText {
   padding: 2vh 3vw;
   background-color: #f2f2f2;
   margin: 0;
   height: 85%;
   overflow: hidden;
 }
-
-.image {
+.flex .mainContent h1 {
+  font-size: 3vw;
+  margin-bottom: 0;
+  height: 15%;
+  padding-top: 1%;
+}
+@media screen and (max-width: 576px) {
+  .flex .mainContent h1 {
+    font-size: 30px;
+  }
+}
+.flex .image {
   padding: 0;
 }
-@media screen and (max-width: 768) {
-  .image {
+@media screen and (max-width: 768px) {
+  .flex .image {
     width: 100%;
   }
 }
-
-img {
+.flex .image img {
   width: 100%;
+}
+
+p {
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=hobbySyle.css.map */
