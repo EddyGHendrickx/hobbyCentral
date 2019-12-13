@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon"
+          type="image/png"
+          href="https://i.kym-cdn.com/photos/images/newsfeed/001/323/085/7fd.jpg">
 
-    <title>Music</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+    <title>Title</title>
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Own css-->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+
     <link rel="stylesheet" href="../css/headerStyle.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="../css/MusicStyle.css">
     <link rel="stylesheet" href="../css/footerStyle.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/hobbySyle.css">
 
-    <!-- fonts -->
+    <link rel="stylesheet" type="text/css" href="../css/MusicStyle.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+
 </head>
 
 
@@ -34,16 +39,16 @@
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto ">
             <li class="nav-item active ">
-                <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-dark" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark " href="#">Our Hobbies</a>
+                <a class="nav-link text-dark " href="allhobbies&rooms.html">Our Hobbies</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Schedule</a>
+                <a class="nav-link text-dark" href="Schedule.html">Schedule</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Contact</a>
+                <a class="nav-link text-dark" href="contact.html">Contact</a>
             </li>
         </ul>
     </div>
@@ -54,26 +59,18 @@
 
 <!--Main Content-->
 <article class="flex">
-    <section class="mainContent">
+    <section class="mainContent col-md-6">
         <h1>Music & Musical accessories</h1>
         <p class="mainText">Have you grown tired of your small practice room? Or maybe you just need a good amp to
-        get exactly the sound you want. Maybe you need a <strong> new guitar</strong>, to perfect the licks you've been working on? Look no further. Hobby Central is the central hub for all your music needs. Check out our equipment,
-        our rooms, our accessories, and be amazed. You'll never need another website.
-        <div class="container">
-        <a href="allhobbies&rooms.html"><button class="btn btn-warning">Pick a room</button></a>
-            <a href="Schedule.html"><button class="btn btn-warning">Check the schedule</button></a>
-        </div>
+            get exactly the sound you want. Maybe you need a <strong> new guitar</strong>, to perfect the licks you've been working on? Look no further. Hobby Central is the central hub for all your music needs. Check out our equipment,
+            our rooms, our accessories, and be amazed. You'll never need another website.</p>
     </section>
-    <section class="image">
+    <section class="image col-md-6">
         <img src="https://www.bax-shop.nl/images/koopgids_gitaarversterker_7.jpg" alt=...">
     </section>
 </article>
 
-
-
-
-<!-- footer -->
-
+<!--footer-->
 <footer>
     <div class="container-fluid">
         <div class="row">
@@ -82,7 +79,7 @@
             </div>
             <div class="col-lg-2 col-md-12 col-sm-8 text-white">
                 <h5 class="headtitle centertext">HobbyCentral</h5>
-                <p>To Exercise all your favorite hobbies!</p>
+                <article>To Exercise all your favorite hobbies in one place. Come and have a look.</article>
             </div>
             <div class="col-lg-2 col-md-12 col-sm-8 text-white">
                 <h5 class="headtitle centertext">Quick Link</h5>
@@ -107,16 +104,14 @@
             </div>
             <div class="col-lg-2 col-md-12 col-sm-8 text-white">
                 <h5 class="headtitle centertext">Contact</h5>
-                <p class="d-inline-block">T. +33 (0)1 75 43 24 40<br>
+                <article class="d-inline-block">T. +33 (0)1 75 43 24 40<br>
                     F. +33 (0)1 75 43 24 41<br>
                     8 Sesamestreet<br>
                     Boston, MA 02130<br>
                     USA<br>
                     <a href="mailto:contact@cahnwilson.com" class="link-line">contact@cahnwilson.com</a><br>
 
-
-
-                </p>
+                </article>
             </div>
             <div class="col-lg-2 col-md-12 col-sm-8 text-white">
                 <h5 class="headtitle centertext">Social</h5>
@@ -134,14 +129,13 @@
         </div>
 
         <div class="row">
-            <div class="col-12 centertext text-white">
-                <p>Copyright HobbyCentral &copy; 2019. All rights reserved.</p>
+            <div class="col-12 centertext text-white copyrightsize">
+                <article>Copyright HobbyCentral &copy; 2019. All rights reserved.</article>
             </div>
 
         </div>
     </div>
 </footer>
-
 <!--Scripts-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -154,3 +148,17 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
+<!--
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            One of three columns
+        </div>
+        <div class="col-sm">
+            One of three columns
+        </div>
+        <div class="col-sm">
+            One of three columns
+        </div>
+    </div>
+</div>
