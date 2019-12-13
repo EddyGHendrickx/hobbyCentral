@@ -36,6 +36,7 @@ h1 {
     margin: 0;
     height: 90%;
     overflow: hidden;
+    font-size: 1vw !important;
 }
 
 
