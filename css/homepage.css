@@ -35,6 +35,22 @@
 }
 
 .OurImages {
+    border-radius: 30%;
     max-height: 200px;
     max-width: auto;
+}
+
+.wwycfycontent {
+    justify-content: center;
+    align-content: center;
+    background-color: #252525;
+}
+
+.paragraph {
+    text-align: center;
+               }
+
+.carousel-caption {
+    color: #252525;
+    background:rgba(255,255,255,0.5);;
 }
