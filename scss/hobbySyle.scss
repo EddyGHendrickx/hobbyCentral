@@ -1,52 +1,62 @@
 @import "parallax";
 @import "variables";
 
-body{
+body {
   margin: 0;
 }
 
-.parallax{
+.parallax {
   @include parallax;
 }
 
-.flex{
-  display: flex;
+.flex {
   margin: 10vh 0;
-}
-
-.mainContent{
-  padding: 0;
-  @include mQ(768) {
-    width: 100%;
+  @include mQ(768px) {
+    display: block;
   }
-}
+  display: flex;
 
-h1 {
-  font-size: 3vw;
-  margin-bottom: 0;
-  height: 15%;
-  padding-top: 1%;
+  .mainContent {
+    padding: 0;
+    @include mQ(768px) {
+      width: 100%;
+    }
+
+    .mainText {
+      padding: 2vh 3vw;
+      background-color: #f2f2f2;
+      margin: 0;
+      height: 85%;
+      overflow: hidden;
+
+    }
+
+    h1 {
+      font-size: 3vw;
+      margin-bottom: 0;
+      height: 15%;
+      padding-top: 1%;
+      @include mQ(576px) {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .image {
+    padding: 0;
+    @include mQ(768px) {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 p {
   font-size: 1.5vw;
-}
-
-.mainText {
-  padding: 2vh 3vw;
-  background-color: #f2f2f2;
-  margin: 0;
-  height: 85%;
-  overflow: hidden;
-}
-
-.image {
-  padding: 0;
-  @include mQ(768) {
-    width: 100%;
+  @include mQ(576px) {
+    font-size: 15px;
   }
-}
-
-img {
-  width: 100%;
 }
